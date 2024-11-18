@@ -1,0 +1,141 @@
+body {
+            margin: 0;
+            height: 100vh;
+            background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHKsihcHoQNGI7hfyvCmGA1Eczvm_KduBAnQ&s') no-repeat center center fixed;
+            background-size: cover;
+        }
+        .container {
+            margin-top: 20px;
+        }
+        .calendar, .cities, .formats, .cinemas {
+            background-color: #fff;
+            padding: 15px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ddd;
+        }
+        .calendar .day, .cities .province {
+            display: inline-block;
+            width: 120px;
+            height: 70px;
+            text-align: center;
+            margin: 5px;
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #ddd;
+            background-color: #fff;
+            cursor: pointer;
+            font-size: 14px;
+        }
+        .calendar .day.selected, .cities .province.selected {
+            border-color: #007bff;
+            color: #007bff;
+            font-weight: bold;
+        }
+        .formats a {
+            display: inline-block;
+            margin: 5px;
+            padding: 5px 10px;
+            border-radius: 5px;
+            text-decoration: none;
+            color: #000;
+            border: 1px solid #ddd;
+            background-color: #fff;
+        }
+        .formats a.selected {
+            background-color: #007bff;
+            color: #fff;
+        }
+        .cinemas {
+            border-top: 2px solid #007bff;
+        }
+        .cinema {
+            margin-bottom: 20px;
+        }
+        .cinema h4 {
+            margin-bottom: 10px;
+            color: #007bff;
+        }
+        .showtimes button {
+            margin: 5px;
+            padding: 10px 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            background-color: #fff;
+            cursor: pointer;
+        }
+        .showtimes button:hover {
+            background-color: #f0f0f0;
+        }
+        .next-button {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            text-align: center;
+            cursor: pointer;
+            font-size: 18px;
+        }
+        .next-button:hover {
+            background-color: #0056b3;
+        }
+        .flex-mid {
+            text-align: right;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+        .flex-mid a {
+            margin: 0 10px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .back {
+            color: orange;
+            font-size: 20px;
+            margin-top: 20px;
+            text-decoration: none;
+        }
+        .continous {
+            color: white;
+            font-size: 20px;
+            margin-left: 50px;
+            margin-bottom: 30px;
+            border: none;
+            background-color: orange;
+            padding: 10px;
+            padding-left: 40px;
+            padding-right: 40px;
+            border-radius: 4px;
+            margin-top: 10px;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+        }
+        .continous:hover {
+            background-color: rgb(246, 194, 98);
+        }
+        .title-box {
+            background-color: #54575a;
+            color: white;
+            padding-top: 1px;
+            padding-bottom: 1px;
+            text-align: center;
+            max-width: 1300px;
+            margin: 0 auto;
+        }
+        .movie-info {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        .movie-info img {
+            width: 100px;
+            height: 150px;
+            margin-right: 20px;
+            border-radius: 10px;
+        }
+        .movie-details {
+            font-size: 16px;
+        }

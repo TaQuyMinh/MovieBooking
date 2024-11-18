@@ -1,0 +1,439 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 5, 2024, 9:39:58 PM
+    Author     : HAO
+*/
+
+/*--------------HEADER--------------*/
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: large;
+}
+
+.col-md-6 {
+    text-align: center;
+}
+
+.col-md-6 a {
+    text-decoration-line: none;
+}
+
+#ve-cua-toi img {
+    width: 50%;
+    height: 100px;
+}
+
+#name a {
+    font-size: 70px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #f49d39;
+}
+
+#dat-ve img {
+    width: 30%;
+    height: 40px;
+}
+
+#line {
+    border-bottom: solid 5px rgb(6, 21, 25);
+}
+
+/*--------------NAVIGATION-----------------*/
+.navigation ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+    list-style: none;
+}
+
+.navigation img {
+    width: 150px;
+    height: 150px;
+    margin-left: 30px;
+    border-radius: 20px;
+}
+
+/*----------FOOTER-----------*/
+.col-md-3 {
+    text-align: center;
+    background-color: #717171;
+    color: azure;
+}
+
+/*------------------------------------------------------ĐẶt VÉ -------------------------------------------------------------------*/
+.flex {
+    display: flex;
+    margin-top: 50px;
+}
+
+.container {
+    background-color: white;
+    border-radius: 5px;
+    width: 800px;
+    height: 600px;
+    margin-left: 100px; 
+    margin-right: 100px;
+    margin-bottom: 100px;
+}
+.row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.span-left, .span-right {
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+.seats {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.seats label {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25px; 
+    height: 25px; 
+    border: 1px solid #ccc;
+    margin: 5px;
+    position: relative;
+    border-radius: 4px;
+}
+
+.seats label input[type="checkbox"] {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.seats label span {
+    pointer-events: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.seats label.checked {
+    background-color: orange;
+}
+
+/*----------------------------------------------EDIT SEAT----------------------------------------------------------------------*/
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.row span {
+    flex: 0 0 auto;
+}
+
+.span-left {
+    margin-left: 10px;
+}
+
+.span-right {
+    margin-right: 10px;
+}
+
+.note {
+    width: 600px;
+    height: 100px;
+    border-top: 7px solid rgb(222, 150, 16);
+    margin: 0 auto;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.sold {
+    width: 20px;
+    height: 20px;
+    border-radius: 4px;
+    background-color: grey;
+    display: inline-block;
+    border: 1px solid grey;
+    vertical-align: middle;
+}
+
+.checked {
+    width: 20px;
+    height: 20px;
+    border-radius: 4px;
+    background-color: orange;
+    display: inline-block;
+    border: 1px solid orange;
+    vertical-align: middle;
+}
+
+.note-noi-dung {
+    margin-right: 20px;
+    font-size: 16px;
+}
+
+.flex {
+    display: flex;
+}
+
+
+
+
+
+/*-------------------------------------------------NOTIFICATION------------------------------------------------------------------*/
+#notification {
+    margin-top: 20px;
+    font-size: 16px;
+    color: blue;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+    padding-top: 60px;
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 300px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.close {
+    color: black;
+    cursor: pointer;
+    font-size: 20px; 
+    font-weight: bold; 
+    padding: 10px; 
+}
+
+.close:hover {
+    color: #fb0303; 
+}
+
+
+.modal-content {
+    background-color: #fefefe;
+    border: 1px solid #888; 
+    border-radius: 5px; 
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2); 
+    max-width: 300px; 
+    height: 100px;
+    padding: 20px; 
+    position: relative; 
+    text-align: center; 
+}
+
+.modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgba(0,0,0,0.4);
+}
+
+.modal-content p {
+    margin-bottom: 0; 
+}
+
+
+
+
+/*---------------------------------------------------THÔNG TIN VÉ ĐẶT------------------------------------------------------------*/
+
+.flex-info {
+    display: flex;
+    margin-top: 20px;
+}
+
+.info {
+    margin-right: 100px;
+    border-top: solid 5px orange;
+    width: 400px;
+    height: 450px;
+    border-radius: 4px;
+    background-color: #fefefe;
+}
+
+.anh {
+    height: 130px;
+    width: 130px;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+
+.name {
+    font-weight: 700;
+    font-size: 25px;
+    margin-left: 30px;
+}
+
+.rap {
+    margin-top: 15px;
+    margin-left: 20px;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.loairap {
+    margin-top: 15px;
+    margin-left: 20px;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+
+.rapso {
+    margin-top: 15px;
+    margin-left: 20px;
+    font-weight: 700;
+    font-size: 20px;
+}
+.suat {
+    margin-top: 10px;
+    margin-left: 20px;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.day{
+     margin-top: 10px;
+    margin-left: 20px;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.thanh-toan {
+    border-top: 1.9px dashed black;
+    width: 350px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.tong-cong {
+    font-size: 15 px;
+    margin-top: -30px;
+    font-weight: 700;
+}
+
+.ghe {
+    font-size: 15px;
+    margin-top: -30px;
+    font-weight: 700;
+}
+
+#totalAmount {
+    font-size: 15px;
+    margin-top: -30px;
+    margin-left: 10px;
+    color: orange;
+    font-weight: bold;
+}
+
+#selectedSeats {
+    font-size: 15px;
+    margin-top: -30px;
+    margin-left: 10px;
+    color: orange;
+    font-weight: bold;
+}
+
+
+
+
+/*--------------------------------------------------FINISH THÔNG TIN ĐẶT VÉ--------------------------------------------------------*/
+
+/*---------------------------------------------------HAI NÚT ĐIỀU KHIỂN TRANG-----------------------------------------------------*/
+
+
+.flex-mid {
+    display: flex;
+    margin-left: 1050px;
+    margin-top: -160px;
+}
+
+.flex-mid a {
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+
+.back {
+    color: orange;
+    font-size: 20px;
+    margin-top: 20px;
+    text-decoration: none;
+}
+
+.continous {
+    color: white;
+    font-size: 20px;
+    margin-left: 50px;
+    margin-bottom: 30px;
+    border: none;
+    background-color: orange;
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 4px;
+    margin-top: 10px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.continous:hover {
+    background-color: rgb(246, 194, 98);
+}
+
+.title-box {
+    
+    background-color: #54575a;
+    color: white;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    text-align: center;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.booked {
+    background-color: grey; /* Màu nền cho ghế đã được đặt */
+    color: white; /* Màu chữ */
+    cursor: not-allowed; /* Con trỏ khi hover */
+}

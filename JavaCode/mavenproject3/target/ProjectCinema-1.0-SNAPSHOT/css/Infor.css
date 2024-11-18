@@ -1,0 +1,173 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jun 25, 2024, 4:39:13 PM
+    Author     : luula
+*/
+/*--------------HEADER--------------*/
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: large;
+}
+
+.header .col-md-6 {
+  text-align: center;
+}
+
+.header .col-md-6 a {
+  text-decoration-line: none;
+}
+
+#ve-cua-toi img {
+  width: 50%;
+  height: 100px;
+}
+
+#name a {
+  font-size: 70px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #f49d39;
+}
+
+#dat-ve img {
+  width: 30%;
+  height: 40px;
+}
+
+#line {
+  border-bottom: solid 5px rgb(6, 21, 25);
+}
+
+/*--------------NAVIGATION-----------------*/
+.navigation ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 70px;
+  list-style: none;
+}
+
+.navigation img {
+  width: 150px;
+  height: 150px;
+  margin-left: 30px;
+  border-radius: 20px;
+}
+/*----------User-----------*/
+.user {
+  margin-top: 20px;
+}
+
+.user-header p {
+  font-size: x-large;
+  font-weight: 600;
+}
+
+.user-function a {
+  display: block;
+  color: #000;
+  padding: 5px 10px;
+  border: 2px solid green;
+  margin-bottom: 20px;
+  width: 50%;
+  text-align: center;
+  border-radius: 20px;
+  text-decoration: none;
+}
+.user-function a:hover {
+  background-color: green;
+  color: white;
+}
+.user-function a:active {
+  background-color: chartreuse;
+}
+
+.user-header-infor {
+  text-align: center;
+  padding-top: 10px;
+  height: 40px;
+  background-color: #f49d39;
+}
+
+.avatar img {
+  margin-top: 20px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 2px solid #fff;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+}
+
+.button-change {
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+.main-infor {
+  margin-top: 20px;
+  border: 1px solid #000;
+}
+
+.main-infor ul {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  list-style-type: none;
+}
+
+.main-infor ul li {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.detail-infor ul {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  border: 1px solid #000;
+  margin-top: 20px;
+  list-style-type: none;
+}
+.detail-infor ul li {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+.transaction-infor {
+  margin-top: 20px;
+  overflow: auto;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.transaction-infor table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid black; /* Thêm đường viền cho bảng */
+}
+
+.transaction-infor th,
+.transaction-infor td {
+  border: 1px solid black; /* Thêm đường viền cho ô */
+  padding: 8px;
+  text-align: left;
+}
+
+/*----------FOOTER-----------*/
+
+#footer .col-md-3 {
+  text-align: center;
+  background-color: #717171;
+  color: azure;
+}
+
+.visited {
+  background-color: orange;
+}

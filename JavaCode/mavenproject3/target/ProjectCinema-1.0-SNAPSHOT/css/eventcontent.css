@@ -1,0 +1,58 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jun 22, 2024, 4:52:28 PM
+    Author     : HAO
+*/
+#eventListTitle {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  
+  #eventListTitle p {
+    font-size: 60px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #f49d39;
+    border-top: solid 5px grey;
+    border-bottom: solid 5px grey;
+  
+  }
+  
+   .eventList {
+    max-width: 900px;
+    margin: 0 auto;
+    position: relative;
+  }
+  
+h3{
+    text-align: center;
+    color: red;
+}
+#poster img{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    width: 250px;
+    height: 250px;
+}
+#content{
+    p{
+        text-align: left;
+        font-size: larger;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    
+}
+
+li{
+    text-align: left;
+}
+
+#condition{
+    text-align: left;
+}

@@ -1,0 +1,177 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jun 17, 2024, 10:27:38 AM
+    Author     : HAO
+*/
+/*--------------HEADER--------------*/
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: large;
+}
+
+.col-md-6 {
+  text-align: center;
+}
+
+.col-md-6 a {
+  text-decoration-line: none;
+}
+
+#ve-cua-toi img {
+  width: 50%;
+  height: 100px
+}
+
+#name a {
+  font-size: 70px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #f49d39;
+}
+
+#dat-ve img {
+  width: 30%;
+  height: 40px;
+}
+
+#line {
+  border-bottom: solid 5px rgb(6, 21, 25);
+}
+
+/*--------------NAVIGATION-----------------*/
+.navigation ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 70px;
+  list-style: none;
+}
+
+
+.navigation img {
+  width: 150px;
+  height: 150px;
+  margin-left: 30px;
+  border-radius: 20px;
+}
+
+/*--------------FILM-----------------*/
+#filmListTitle {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+#filmListTitle p {
+  font-size: 60px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #f49d39;
+  border-top: solid 5px grey;
+  border-bottom: solid 5px grey;
+
+}
+
+.filmList {
+  max-width: 900px;
+  margin: 0 auto;
+  position: relative;
+}
+
+
+.film-row {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(200px, 1fr));
+  gap: 150px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.film-row a{
+  text-decoration-line: none;
+}
+
+
+
+.col-md-4-film img {
+  width: 100%;
+  max-width: 200px;
+  height: 250px;
+  border-radius: 10px;
+  border: solid 5px black;
+}
+
+
+.col-md-4-film p {
+
+  font-size: 16px;
+  color: #333; 
+  max-width: 200px;
+}
+
+.film-info{
+  font-size: 16px;
+  font-weight: 700;
+}
+
+#film-description{
+  height: 450px;
+}
+
+
+.inline-block {
+  display: flex;
+
+}
+
+
+.luot-xem {
+  border: solid 2px;
+  border-radius: 10px;
+  background-color: aqua;
+  max-width: 95px;
+  max-height: 50px;
+  width: 95px;
+  height: 50px;
+  text-align: center;
+  margin-bottom: 20px;
+  border-color:aqua;
+}
+
+.luot-xem p{
+  text-align: center;
+  color: black;
+  
+}
+
+.mua-ve{
+  border:solid 2px;
+  border-radius: 10px;
+  background-color:#f49d39;
+  max-width: 95px;
+  max-height:50px;
+  width:95px;
+  height:50px;
+  text-align: center;
+  margin-bottom: 20px;
+  color:white;
+}
+
+.mua-ve p{
+    margin-top:10px;
+  text-align: center;
+  color: white;
+}
+
+
+
+/*----------FOOTER-----------*/
+.col-md-3 {
+  text-align: center;
+  background-color: #717171;
+  color: azure;
+}

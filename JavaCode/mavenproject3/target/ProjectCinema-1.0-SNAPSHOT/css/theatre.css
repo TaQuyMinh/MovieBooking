@@ -1,0 +1,287 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jun 25, 2024, 10:47:25 AM
+    Author     : HAO
+*/
+
+/*--------------HEADER--------------*/
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: large;
+}
+
+.col-md-6 {
+    text-align: center;
+}
+
+.col-md-6 a {
+    text-decoration-line: none;
+}
+
+#ve-cua-toi img {
+    width: 50%;
+    height: 100px;
+}
+
+#name a {
+    font-size: 70px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    color: #f49d39;
+}
+
+#dat-ve img {
+    width: 30%;
+    height: 40px;
+}
+
+#line {
+    border-bottom: solid 5px rgb(6, 21, 25);
+}
+
+/*--------------NAVIGATION-----------------*/
+.navigation ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+    list-style: none;
+}
+
+.navigation img {
+    width: 150px;
+    height: 150px;
+    margin-left: 30px;
+    border-radius: 20px;
+}
+
+/*--------------Theater-----------------*/
+.theatre-list {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #717171;
+    border-radius: 12px;
+    background-color: #e3f2fd;
+}
+
+.title-cinema {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.title-cinema h1 {
+    color: #00ffff;
+    font-size: 60px;
+    font-weight: bold;
+    text-shadow: 2px 2px 2px #f49d39;
+}
+
+.cinemas-area {
+    width: 100%;
+    border-bottom: 2px solid #727171;
+    border-top: 2px solid #727171;
+    padding: 8px 10px 15px;
+}
+
+.cinemas-area ul {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 10px;
+    padding: 0;
+    text-decoration-color: #000;
+    list-style-type: none;
+}
+.cinemas-area ul li {
+    border: 1px solid #717171;
+    border-radius: 12px;
+    text-align: center;
+    padding: 10px;
+    background-color: #42a5f5;
+}
+
+.cinemas-area ul li a {
+    text-decoration: none;
+    color: #000;
+    display: block;
+}
+
+.cinemas-area ul li a:hover {
+    color: #64b5f6;
+}
+
+.list-theatre {
+    border-bottom: 2px solid #717171;
+    border-top: 2px solid #717171;
+    padding: 6px 10px 15px;
+}
+
+.cinemas-list ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    padding: 0;
+}
+
+.cinemas-list ul li {
+    flex: 10px;
+    margin: 10px;
+    border: 1px solid#717171;
+    border-radius: 8px;
+    text-align: center;
+    padding: 10px;
+    background-color: #f5f5f5;
+}
+
+.cinemas-list ul li a {
+    text-decoration: none;
+    color: #000;
+}
+.cinemas-list ul li a:hover {
+    color: #64b5f6;
+}
+.province.selected {
+    font-weight: bold;
+    color: #f49d39;
+}
+
+.cinemass.selected{
+    font-weight: bold;
+    color: #f49d39;
+}
+
+.filmList p{
+    border: 1px solid#717171;
+    border-radius: 8px;
+    text-align: center;
+    padding: 10px;
+    background-color:#00ffff ;
+    text-decoration: none;
+    color: #000;
+}
+
+.cinemass.selected{
+     font-weight: bold;
+    color: #f49d39;
+}
+/*--------------FILM-----------------*/
+#filmListTitle {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#filmListTitle p {
+    font-size: 60px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #f49d39;
+    border-top: solid 5px grey;
+    border-bottom: solid 5px grey;
+
+}
+
+.filmList {
+    max-width: 900px;
+    margin: 0 auto;
+    position: relative;
+}
+
+
+.film-row {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 150px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.film-row a{
+    text-decoration-line: none;
+}
+
+
+
+.col-md-4-film img {
+    width: 100%;
+    max-width: 200px;
+    height: 250px;
+    border-radius: 10px;
+    border: solid 5px black;
+}
+
+
+.col-md-4-film p {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #333; 
+    max-width: 200px;
+}
+
+.film-info{
+    font-size: 16px;
+    font-weight: 700;
+}
+
+#film-description{
+    height: 450px;
+}
+
+
+.inline-block {
+    display: flex;
+
+}
+
+
+.like{
+    width:30%;
+    height: 40px;
+    text-align: center;
+    background-color: rgb(130, 171, 247);
+    margin-right: 50px;
+    border-radius: 10px;
+    border: solid 2px rgba(240, 240, 240, 0.341);
+}
+
+.mua-ve{
+    border:solid 2px;
+    border-radius: 10px;
+    background-color:#f49d39;
+    width: 60%;
+    height:50px;
+    text-align: center;
+    margin-bottom: 20px;
+    color:white;
+}
+
+.mua-ve p{
+    text-align: center;
+    color: white;
+}
+
+
+
+
+
+/*----------FOOTER-----------*/
+
+.col-md-3 {
+    text-align: center;
+    background-color: #717171;
+    color: azure;
+}
+
+
+.hidden {
+    display: none;
+}
+
+.visited{
+    background-color: orange;
+}

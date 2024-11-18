@@ -1,0 +1,121 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 5, 2024, 9:30:22 PM
+    Author     : HAO
+*/
+
+#payment {
+    margin-top: 20px;
+}
+#step p, #calculation p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+#calculation {
+    background-color: #e2ccf7;
+    padding: 40px;
+    border-radius: 10px;
+}
+#calculation p {
+    font-weight: bold;
+}
+#calculation p:nth-child(even) {
+    text-align: right;
+}
+.step-header {
+    background-color: #1c5e3d;
+    padding: 10px;
+    border-radius: 10px 10px 0 0;
+    font-weight: bold;
+}
+.step-body {
+    background-color: #e9ecef;
+    padding: 20px;
+    border-radius: 0 0 10px 10px;
+    margin-bottom: 20px;
+}
+.step1-header {
+    background-color: #99d961;
+}
+.step2-header {
+    background-color: #99d961;
+}
+.step1-body {
+    background-color: #d4f5ed;
+}
+.step2-body {
+    background-color: #d4f5ed;
+}
+.step1 .form-group, .step2 .form-group {
+    display: flex;
+    align-items: center;
+}
+.step1 .form-control, .step2 .form-control {
+    margin-left: 10px;
+    flex: 1;
+}
+.flex-mid {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+    
+}
+
+.flex-mid a {
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.back {
+    color: orange;
+    font-size: 20px;
+    margin-top: 20px;
+    padding-top:10px;
+    
+}
+.continous {
+    color: white;
+    font-size: 20px;
+    margin-bottom: 30px;
+    border: none;
+    background-color: orange;
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 4px;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+.continous:hover {
+    background-color: rgb(246, 194, 98);
+}
+
+.title-box {
+    background-color: #54575a;
+    color: white;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.movie-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.movie-info img {
+    width: 100px;
+    height: 150px;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+.movie-details {
+    font-size: 16px;
+}

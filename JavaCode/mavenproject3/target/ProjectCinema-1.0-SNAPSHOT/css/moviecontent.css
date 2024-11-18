@@ -1,0 +1,185 @@
+/*--------------HEADER--------------*/
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: large;
+}
+
+.col-md-6 {
+  text-align: center;
+}
+
+.col-md-6 a {
+  text-decoration-line: none;
+}
+
+#ve-cua-toi img {
+  width: 50%;
+  height: 100px
+}
+
+#name a {
+  font-size: 70px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #f49d39;
+}
+
+#dat-ve img {
+  width: 30%;
+  height: 40px;
+}
+
+#line {
+  border-bottom: solid 5px rgb(6, 21, 25);
+}
+
+/*--------------NAVIGATION-----------------*/
+.navigation ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 70px;
+  list-style: none;
+}
+
+
+.navigation img {
+  width: 150px;
+  height: 150px;
+  margin-left: 30px;
+  border-radius: 20px;
+}
+
+
+/*----------FOOTER-----------*/
+.col-md-3 {
+  text-align: center;
+  background-color: #717171;
+  color: azure;
+}
+
+/*----------CONTENT-----------*/
+#filmContentTitle {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+#filmContentTitle p {
+  font-size: 60px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #f49d39;
+  border-top: solid 5px grey;
+  border-bottom: solid 5px grey;
+
+}
+
+.filmContent {
+  max-width: 900px;
+  height: 1500px;
+  margin: 0 auto;
+  position: relative;
+}
+/*---------Poster------------*/
+.inline-block {
+  display: flex;
+  margin-top: 20px;
+}
+
+.inline-block a{
+  text-decoration-line: none ;
+}
+
+.luot-xem {
+  border: solid 2px;
+  border-radius: 10px;
+  background-color: aqua;
+  max-width: 95px;
+  max-height: 50px;
+  width: 95px;
+  height: 50px;
+  text-align: center;
+  margin-bottom: 20px;
+  border-color:aqua;
+}
+
+.luot-xem p{
+  text-align: center;
+  color: black;
+  padding-top: 10px;
+}
+
+.mua-ve{
+  border:solid 2px;
+  border-radius: 10px;
+  background-color:#f49d39;
+  width: 35%;
+  height:50px;
+  margin-bottom: 20px;
+  color:white;
+}
+
+.mua-ve p{  
+  color: white;
+  text-align: center;
+  padding-top: 12px;
+}
+
+/*---------Information-------*/
+#filmPoster img{
+    width:201px;
+    height:251px;   
+}
+
+#filmName p{
+  font-size: 30px;
+}
+
+#filmDetail ul{
+  list-style: none;
+  font-size: 20px;
+}
+
+#filmInformation{
+  height: 350px;
+}
+
+#filmIntroduction{
+  height: 350px;
+}
+
+#introductionTitle p{
+  font-size: 50px;
+  text-align: center;
+}
+
+#introductionContent p{
+  text-align: justify;
+  font-size: 18px;
+}
+
+#trailerTitle p{
+  font-size: 50px;
+  text-align: center;
+}
+
+#trailerVideo iframe{
+  border-radius: 20px;
+  width:90%;
+}
+
+#trailerVideo{
+  text-align: center;
+}
+
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jun 17, 2024, 10:35:06 AM
+    Author     : HAO
+*/
+
